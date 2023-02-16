@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+[name]{
+    color: blue;
+    font-size: large;
+}
+
+[type = button]{
+    background-color: aqua;
+    width: 500;
+}
+
+[type=text]{
+    width: 150;
+    height: 150;
+}

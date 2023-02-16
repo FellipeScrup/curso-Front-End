@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.d1{
+    width: 50%;
+    overflow:visible;
+    display: inline-block;
+    background-color: blue;
+    vertical-align: top;
+}
+.d2{
+    width: 50%;
+    overflow:visible;
+    display: inline-block;
+    background-color: red;
+    vertical-align: top;
+}
+.d3{
+    width: 300px;
+    height: 300;
+    display: inline-block;
+    background-color: green;
+}

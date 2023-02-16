@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    background-color: rgba(2, 245, 2, 0.37);
+}
+
+h2{
+    color: rgb(87, 84, 233);
+
+}
