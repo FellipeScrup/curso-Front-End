@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <script>
+            function teste(){
+                //executado quando eu chamar a funcao
+                console.log("chamando a funcao testes");
+            }
+
+            function teste2(nome,idade){
+                console.log("o nome passado eh: "+nome);
+                console.log("idade passada eh: "+idade);
+                console.log("----------------------------");
+            }
+            /*
+            teste2('fellipe',19);
+            teste2('paulo',21);
+
+            teste();
+            */
+
+            function pegarNome(par){
+              if(par == 1)
+                return "Fellipe";
+                else if(par == 2)
+                return "Paulo";
+                else
+                return "Eliminar nomes";
+            }
+
+            var nome = pegarNome();
+
+            console.log(nome);
+        </script>
+    </body>
+</html>
