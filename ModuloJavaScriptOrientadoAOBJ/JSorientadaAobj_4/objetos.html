@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <script>
+
+          class Animal{
+                constructor(nome){
+                    this.nome = nome;
+                }
+                printNome(){
+                    return this.nome;
+                }
+          }
+                    //o extends herda tudo que á na classe animal
+          class Cachorro extends Animal{
+            constructor(nome){
+                //o super invoca o construtor da classe animal
+                super(nome);
+                this.raca = "york";
+            }
+
+            printRaca(){
+                return this.raca;
+            }
+          }
+
+
+           cachorro = new Cachorro("Harry");
+
+           console.log(cachorro.printRaca());
+           console.log(cachorro.printNome());
+          
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+    <body>
+        <script>
+            function Pessoas(){
+                this.nome1 = 'Fellipe';
+                this.nome2 = 'Pedro';
+                this.nome3 = 'Paulo';
+            }
+
+            var pessoas = new Pessoas();
+
+            pessoas.nome1 = 'Jonas';
+
+            console.log(pessoas.nome1);
+
+            var objs = [{
+                'nome' : 'Gabriel',
+                'idade' : 27,
+                'profissao' : 'Pedreiro'
+            },
+        
+            {
+                'nome' : 'Paulo',
+                'idade' : 21,
+                'profissao' : 'Artista'
+            }
+        ];
+
+            console.log(objs[0].nome);
+
+            console.log(objs[0].idade);
+
+            console.log(objs[0].profissao);
+            
+            console.log(objs[1].nome);
+
+            console.log(objs[1].idade);
+
+            console.log(objs[1].profissao);
+
+
+            class Nomes{
+                constructor(nome){
+                    this.nome = nome;
+                }
+
+                printNome(){
+                    return this.nome;
+                }
+            }
+
+           // nomes = new Nomes("Paulo");
+
+            //console.log(nomes.printNome());
+
+
+            class Humanos extends Nomes{
+                constructor(nome){
+                    super(nome);
+                    this.idade = 15;
+                }
+            }
+
+            humanos = new Humanos("pedro");
+
+            console.log(humanos.printNome());
+
+        </script>
+    </body>
+</html>
